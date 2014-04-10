@@ -1,0 +1,76 @@
+body{
+background-color:#FFF;	
+}
+/* start - table */
+table {
+	margin: 15px 10px; 
+	border-collapse: collapse;			
+	color: #000;
+}
+th {
+	background: #000;
+	color: #0A0A0A;
+	height: 33px;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-align: left;
+	border-left: 1px solid #211E20;
+	border-right: 1px solid #211E20;
+	border-bottom: 1px solid #211E20;
+	border-top: 1px solid #48780E;
+}
+tr {
+	height: 30px;		
+}
+td {
+	padding-left: 12px;
+	padding-right: 12px;
+	border: 1px solid #111;	
+}
+/* end - table */
+
+
+/* form elements */
+form {
+	margin: 20px 10px;
+	
+}
+form p {
+	padding: 12px 0 5px 0;	
+	margin: 0;	
+}
+label {
+	font-weight: bold;	
+	color: #FAFAFA;
+}
+input, select, textarea {
+	margin: 5px 0;
+	padding: 5px;
+	font: normal 1em Verdana, Tahoma, sans-serif;
+	color:#0C0C0C;
+	background: #FFFFFF;  
+	border: 1px solid #1C1C1C;
+}
+option { padding-right: 0.5em; } 
+
+#name, #email, #message{
+	width: 480px;
+}
+input.button { 
+	font: bold 12px Arial, Verdana, Sans-serif; 
+	height: 30px;
+	padding: 2px 3px; 
+	margin-top: 8px;
+	color: #48780E;
+	background: #000;
+	border-width: 1px;
+  	border-style: solid;
+  	border-color: #1B1B1B;
+}
+/*jquery error displat=y! */
+.error {/*
+  background:url("images/unchecked.gif") no-repeat 0px 0px;*/
+  padding-left: 10px;
+  font-size:14px;
+  color:#F00;
+}

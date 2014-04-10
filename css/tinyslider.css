@@ -1,0 +1,21 @@
+
+#slideshow2 {list-style:none; color:#fff}
+#slideshow2 span {display:none}
+#wrapper2 {width:506px; margin:40px auto; display:none}
+#wrapper2 * {margin:0; padding:0}
+#fullsize2 {position:relative; width:500px; height:300px; padding:2px; border:1px solid #ccc; background:#000}
+#image2 {width:500px}
+#image2 img {position:absolute; z-index:25; width:auto}
+.imgnav2 {position:absolute; width:25%; height:306px; cursor:pointer; z-index:150}
+#imgprev2 {left:0; background:url(images/left.gif) left center no-repeat}
+#imgnext2 {right:0; background:url(images/right.gif) right center no-repeat}
+#imglink2 {position:absolute; height:306px; width:100%; z-index:100; opacity:.4; filter:alpha(opacity=40)}
+.linkhover2 {background:url(images/link.gif) center center no-repeat}
+#thumbnails2 {margin-top:15px}
+#slideleft2 {float:left; width:20px; height:81px; background:url(images/scroll-left.gif) center center no-repeat; background-color:#222}
+#slideleft2:hover {background-color:#333}
+#slideright2 {float:right; width:20px; height:81px; background:#222 url(images/scroll-right.gif) center center no-repeat}
+#slideright2:hover {background-color:#333}
+#slidearea2 {float:left; position:relative; width:456px; margin-left:5px; height:81px; overflow:hidden}
+#slider2 {position:absolute; left:0; height:81px;}
+#slider2 img {cursor:pointer; border:1px solid #666; padding:2px;}

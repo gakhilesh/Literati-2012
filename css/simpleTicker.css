@@ -1,0 +1,40 @@
+#ticker {
+width:110px;
+height:270px;
+overflow:auto;
+}
+
+#ticker dt {
+font:normal 14px Georgia;
+position:relative;
+background-color:#4F4C4C;
+color:#FFF;
+padding:5px 5px 4px 7px;
+}
+
+#ticker dd {
+margin-left:0;
+font:normal 12px Verdana;
+position:relative;
+padding:10px 20px 4px 7px;
+}
+
+#ticker dd.last {
+border-bottom:1px solid #fff;
+}
+
+#ticker div {
+margin-top:0;
+}
+
+#wrapper {
+background:url(../img/updates.png) no-repeat;
+background-position:left;
+}
+
+#tickerContainer {
+height:330px;
+padding-bottom:50px;
+padding-left:30px;
+padding-top:20px;
+}

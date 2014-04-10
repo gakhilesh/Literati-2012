@@ -1,0 +1,472 @@
+body,h2,p,ul,li {
+margin:0;
+padding:0;
+}
+
+#navDetails a {
+color:#6FF;
+}
+
+#initiativeDescription {
+width:610px;
+text-align:justify;
+margin-left:40px;
+height:325px;
+overflow:scroll;
+overflow-y:hidden;
+}
+
+body {
+font-family:calibri;
+color:#CCC;
+}
+
+p,li {
+clear:both;
+font:10px Verdana, sans-serif;
+}
+
+#header {
+text-align:center;
+height:108px;
+background:url(../backHeader.jpg) repeat-x;
+background-color:#FFF;
+}
+
+#literati_header {
+height:125px;
+}
+
+#subHead {
+visibility:hidden;
+font:Verdana, Arial, Helvetica, sans-serif;
+font-size:19px;
+color:#000;
+text-shadow:6px 7px 4px #666;
+word-spacing:10px;
+font-weight:700;
+letter-spacing:9px;
+margin-top:-5px;
+margin-left:170px;
+width:750px;
+}
+
+#wrapper {
+background:no-repeat center url(../billboard.jpg);
+background-color:#FFF;
+height:726px;
+width:1200px;
+azimuth:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+#book {
+position:absolute;
+width:1500px;
+height:460px;
+left:-600px;
+top:150px;
+}
+
+.image {
+position:relative;
+float:left;
+}
+
+.image .text {
+position:absolute;
+top:10px;
+left:10px;
+width:300px;
+}
+
+.contact {
+text-align:center;
+font-size:24px;
+text-shadow:5px 5px 5px #999;
+margin-top:-10px;
+margin-left:300px;
+position:absolute;
+}
+
+.Convenors {
+font-size:16px;
+text-shadow:9px 10px 5px #999;
+text-align:center;
+}
+
+table tr th {
+text-align:center;
+text-decoration:underline;
+border-spacing:none;
+}
+
+.style {
+padding-left:20px;
+font-size:16px;
+margin-left:50px;
+}
+
+#previousbutton {
+position:absolute;
+left:40px;
+top:150px;
+z-index:100;
+}
+
+#right-page {
+position:absolute;
+left:750px;
+top:0;
+}
+
+#front-cover {
+position:absolute;
+left:750px;
+width:750px;
+height:460px;
+top:0;
+background-image:url(../book_cover.JPG);
+}
+
+#book-cover {
+width:750px;
+height:460px;
+}
+
+#pages .page {
+background:no-repeat url(../right_bckground.jpg);
+display:block;
+width:730px;
+height:445px;
+position:absolute;
+left:749px;
+top:7px;
+overflow:hidden;
+}
+
+.shadow {
+text-shadow:4px 4px 10px #CCC;
+cursor:pointer;
+}
+
+#pages section > div {
+display:block;
+width:720px;
+height:250px;
+font-size:15px;
+}
+
+#pages section p,#pages section h2 {
+line-height:1.4em;
+font-size:12px;
+text-align:justify;
+padding:3px 0 10px;
+}
+
+#pages section h2 {
+margin:15px 0 10px;
+}
+
+#pageflip-canvas {
+position:absolute;
+}
+
+#front-cover #flip {
+height:260px;
+width:50px;
+float:right;
+}
+
+#book-back {
+background-image:url(../board.png);
+}
+
+.twoColumns {
+font-size:15px;
+line-height:25px;
+-moz-column-count:2;
+-webkit-column-count:2;
+column-count:2;
+-moz-column-gap:50px;
+-webkit-column-gap:50px;
+column-gap:20px;
+-moz-column-rule-style:none;
+-webkit-column-rule-style:none;
+column-rule-style:none;
+padding-left:15px;
+padding-right:45px;
+padding-top:10px;
+}
+
+.heading {
+text-align:center;
+font-size:36px;
+border-bottom:thin #666 solid;
+color:#FFF;
+}
+
+#slides {
+position:absolute;
+top:20%;
+}
+
+#teaser {
+position:absolute;
+left:200px;
+top:20%;
+}
+
+#flip {
+height:460px;
+width:50px;
+position:absolute;
+left:825px;
+top:150px;
+z-index:120;
+cursor:pointer;
+}
+
+#navigation {
+width:90px;
+height:230px;
+position:absolute;
+left:830px;
+top:137px;
+z-index:120;
+line-height:15px;
+background:url(../navigationbg.png) no-repeat;
+}
+
+#nav {
+background:url(../nav.png);
+width:88px;
+height:20px;
+color:#000;
+cursor:pointer;
+font-size:12px;
+padding-left:10px;
+padding-top:8px;
+padding-bottom:1px;
+}
+
+#nav:hover {
+text-shadow:2px 2px 2px #999;
+}
+
+#reverse_flip {
+height:460px;
+width:70px;
+position:absolute;
+left:20px;
+z-index:120;
+cursor:pointer;
+top:150px;
+}
+
+#nextPageDiv {
+height:64px;
+width:64px;
+position:absolute;
+z-index:120;
+cursor:pointer;
+background:url(../arrow.png) no-repeat right;
+padding-left:50px;
+}
+
+.width {
+width:100px;
+}
+
+#footer {
+bottom:0;
+clear:both;
+background-color:#454545;
+width:100%;
+color:#CCC;
+}
+
+#footer td {
+vertical-align:top;
+}
+
+#footer p {
+color:#CCC;
+}
+
+#footer li {
+list-style:square;
+list-style-position:outside;
+font:10px Verdana,sans-serif;
+line-height:0;
+padding:10px 0;
+}
+
+#footer a {
+color:#FFF;
+text-decoration:none;
+}
+
+#footer a:hover {
+text-decoration:underline;
+}
+
+#onload {
+position:absolute;
+background-color:#CCC;
+}
+
+#eventDiv {
+padding-top:15px;
+margin-left:-45px;
+font-size:14px;
+border-bottom:thin;
+border-bottom-style:solid;
+}
+
+.eventblock {
+float:left;
+border-right:thick;
+padding-left:3px;
+padding-right:3px;
+cursor:pointer;
+}
+
+#eventDiv table tr td {
+border-right-style:solid;
+border-right-width:thin;
+}
+
+#eventList {
+border-right:medium solid;
+font-size:14px;
+height:300px;
+margin-left:-40px;
+margin-top:15px;
+padding-right:20px;
+width:100px;
+float:left;
+overflow-y:auto;
+overflow-x:hidden;
+}
+
+#navDetails {
+float:left;
+font-size:14px;
+height:210px;
+padding-left:10px;
+padding-right:10px;
+padding-top:20px;
+width:500px;
+cursor:default;
+overflow:auto;
+scrollbar-face-color:#317B9C;
+scrollbar-track-color:#87B4C9;
+scrollbar-arrow-color:#54A1C4;
+scrollbar-3dlight-color:#B8D7E6;
+scrollbar-shadow-color:#1E6180;
+scrollbar-highlight-color:#7CBCDA;
+scrollbar-darkshadow-color:#1E6180;
+}
+
+#eventName {
+font-size:24px;
+color:#FFF;
+padding-left:180px;
+text-transform:uppercase;
+text-align:center;
+text-decoration:underline;
+}
+
+.eventNavigation {
+position:relative;
+top:10px;
+float:left;
+width:170px;
+text-align:center;
+}
+
+.workshopNavigation {
+position:relative;
+top:10px;
+float:left;
+width:130px;
+text-align:center;
+}
+
+#preloader {
+width:100%;
+background:url(../bodyBack.jpg);
+}
+
+.paddingForNav {
+padding-right:45px;
+padding-left:25px;
+}
+
+#content {
+font-size:15px;
+}
+
+#rightAlign {
+position:absolute;
+left:400px;
+font-size:14px;
+}
+
+.style ul li {
+list-style-image:url(../img/li_bg_home.png);
+}
+
+.paddingForNav a {
+color:#FFF;
+text-decoration:underline;
+}
+
+.mousePointer {
+cursor:pointer;
+}
+
+.tabletable td {
+border:double;
+padding:20px;
+}
+
+.browser {
+text-align:center;
+color:#000;
+font:"Times New Roman", Times, serif;
+font-size:10px;
+line-height:12px;
+background-color:#FFF;
+}
+
+#wsNavDetails {
+overflow-y:auto;
+overflow-x:auto;
+height:230px;
+width:480px;
+padding-left:10px;
+padding-top:10px;
+padding-right:10px;
+}
+
+#wsName {
+font-size:24px;
+color:#FFF;
+text-transform:uppercase;
+text-align:center;
+text-decoration:underline;
+}
+
+#assosiatetitle a img {
+height:auto;
+width:auto;
+}
+
+#contactheader {
+font-size:14px;
+font-weight:bolder;
+text-align:center;
+}
